@@ -5,4 +5,26 @@
     text-transform: uppercase;
     }
 
-   
+    <script>
+    const swiper = new Swiper(‘.swiper’, {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    });
+    </script>
+
+.swiper-button-prev,
+.swiper-button-next {
+display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+    }
+
+    <div class=”descricao”>
+<h3 class=”descricao_titulo”>Talvez você também se interesse por...</h3>
+<h2 class=”descricao_titulo-livro”>Angular 11 e Firebase</h2>
+<p class=”descricao__texto”>Construindo uma aplicação integrada com
+a plataforma do Google.</p>
+</div>
