@@ -28,3 +28,82 @@ display: none;
 <p class=”descricao__texto”>Construindo uma aplicação integrada com
 a plataforma do Google.</p>
 </div>
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    }
+
+    <!-- Segunda coluna -->
+<img src=”img/Angular.svg” class=”descricao__imagem”>
+
+</div>
+<!-- Segunda linha -->
+<div class=”card__botoes”>
+<!-- Primeira coluna -->
+<ul class=”botoes”>
+<li class=”botoes__item”><img src=”img/Favoritos.svg”
+
+alt=”Favoritar livro”></li>
+
+<li class=”botoes__item”><img src=”img/Compras.svg”
+
+alt=”Adicionar no carrinho de compras”></li>
+</ul>
+</div>
+
+<!-- Primeira coluna -->
+<ul class=”botoes”>
+
+<li class=”botoes__item”><img src=”img/Favoritos.svg”
+
+alt=”Favoritar livro”></li>
+
+<li class=”botoes__item”><img src=”img/Compras.svg”
+
+alt=”Adicionar no carrinho de compras”></li>
+</ul>
+<!-- Segunda coluna -->
+<a href=”#” class=”botoes__ancora”>Saiba mais</a>
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .card {
+        background: var(--branco);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        margin: 1em;
+        padding: 1em;
+        }
+        
+        .descricao__titulo {
+            color: var(--laranja);
+            font-weight: 700;
+            }
+
+            .descricao__titulo-livro {
+                color: var(--azul);
+                font-size: 18px;
+                font-weight: 700;
+                margin: 0.5em 0;
+                }
+
+                .descricao__texto {
+                    font-size: 14px;
+                    }
+
+                    .botoes__item {
+                        margin: 0 0.5em;
+                        }
+
+                        .botoes__ancora {
+                            background-color: var(--laranja);
+                            padding: 1em 2.2em;
+                            color: var(--branco);
+                            font-weight: 700;
+                            text-decoration: none;
+                            }
