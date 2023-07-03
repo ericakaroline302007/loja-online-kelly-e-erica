@@ -41,12 +41,9 @@ padding: 2.5em 2em;
             font-weight: 400;
             text-align: center;
             color: var(--branco);
-            background: url(“../img/Lupa.svg”) no-repeat;
+            background: url("../img/Lupa.svg") no-repeat;
             background-position: 1em;
             }
 
-            @import url(“styles/header.css”);
-            @import url(“styles/banner.css”);
-            @import url(“styles/carrossel.css”);
-
+            
            
